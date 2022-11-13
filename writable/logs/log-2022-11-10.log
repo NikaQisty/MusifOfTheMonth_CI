@@ -1,0 +1,321 @@
+CRITICAL - 2022-11-10 03:25:03 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:28:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:18 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:18 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:18 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:19 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:19 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:19 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 03:37:46 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-10 07:43:34 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\about.php(6): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('about', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('about')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->about()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 08:28:57 --> mysqli_sql_exception: Table 'db_contactapp.contact' doesn't exist in C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\ci-news\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\ci-news\app\Database\Seeds\Contact.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci-news\system\Database\Seeder.php(146): App\Database\Seeds\Contact->run()
+#6 C:\xampp\htdocs\ci-news\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\xampp\htdocs\ci-news\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\xampp\htdocs\ci-news\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\xampp\htdocs\ci-news\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ci-news\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ci-news\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+CRITICAL - 2022-11-10 08:44:48 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:48:21 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:48:24 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:56:47 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:56:51 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:58:20 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:59:01 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:59:02 --> Class "App\Models\ContactModel" not found
+in APPPATH\Controllers\Contact.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 08:59:33 --> mysqli_sql_exception: Table 'db_contactapp.contacts' doesn't exist in C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci-news\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci-news\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci-news\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci-news\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci-news\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci-news\app\Controllers\Contact.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(927): App\Controllers\Contact->contact()
+#8 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#9 C:\xampp\htdocs\ci-news\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci-news\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci-news\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-11-10 08:59:33 --> Table 'db_contactapp.contacts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `contacts`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `contacts`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `contacts`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contacts`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Contact.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:59:58 --> Undefined variable $contact
+in APPPATH\Views\contact.php on line 9.
+ 1 APPPATH\Views\contact.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contact', 'APPPATH\\Views\\contact.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:17:24 --> Allowed fields must be specified for model: App\Models\ContactModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ContactModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Contact.php(30): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:20:18 --> Allowed fields must be specified for model: App\Models\ContactModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ContactModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Contact.php(30): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:20:32 --> Allowed fields must be specified for model: App\Models\ContactModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ContactModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Contact.php(30): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:20:43 --> Allowed fields must be specified for model: App\Models\ContactModel
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ContactModel')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\Contact.php(30): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:28:49 --> Undefined array key "id"
+in APPPATH\Views\contact.php on line 15.
+ 1 APPPATH\Views\contact.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\contact.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:32:04 --> Undefined array key "id"
+in APPPATH\Views\contact.php on line 15.
+ 1 APPPATH\Views\contact.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\contact.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:32:10 --> Undefined array key "id"
+in APPPATH\Views\contact.php on line 15.
+ 1 APPPATH\Views\contact.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\contact.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:36:02 --> Undefined array key "id"
+in APPPATH\Views\contact.php on line 15.
+ 1 APPPATH\Views\contact.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\contact.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:36:08 --> Undefined array key "id"
+in APPPATH\Views\contact.php on line 15.
+ 1 APPPATH\Views\contact.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\contact.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:37:02 --> Undefined array key "id"
+in APPPATH\Views\contact.php on line 15.
+ 1 APPPATH\Views\contact.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\contact.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 09:53:37 --> Undefined variable $row
+in APPPATH\Views\edit-contact.php on line 6.
+ 1 APPPATH\Views\edit-contact.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\edit-contact.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit-contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('edit-contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(49): view('edit-contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->edit('7')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 13:05:31 --> Undefined variable $nomor
+in APPPATH\Views\contact.php on line 22.
+ 1 APPPATH\Views\contact.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomor', 'APPPATH\\Views\\contact.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contact', [], true)
+ 5 APPPATH\Controllers\Contact.php(17): view('contact', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Contact->contact()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
